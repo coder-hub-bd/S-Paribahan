@@ -1,6 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
     /* font-family: "Inter", sans-serif; */
     /* font-size: 50px;
     font-weight: 800; */
+}
+.main-div{
+    background-color: aquamarine;
+}
+
+.child-div{
+    background-color: white;
+    margin: 0px auto;
+    width: 1000px;
+    height: auto;
+}
+.navbar-section{
+    font-family: "Raleway", sans-serif;
 }
