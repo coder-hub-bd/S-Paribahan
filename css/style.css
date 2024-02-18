@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.raleway{
+    font-family: "Raleway", sans-serif;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+}
+
 body {
     /* font-family: "Raleway", sans-serif; */
     /* font-family: "Inter", sans-serif; */
@@ -40,4 +48,58 @@ body {
     border: 1px solid;
     background-color: white;
     border-radius: 24px;
+}
+
+.best-offers .left{
+    position: relative;
+    width: 490px;
+    height: 220px;
+    
+    /* border-radius: 24px; */
+}
+.best-offers .left .circle-1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    top: -25px;
+}
+
+.best-offers .left .circle-2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -25px;
+}
+
+
+.best-offers .right{
+    position: relative;
+    width: 490px;
+    height: 220px;
+    
+    /* border-radius: 24px; */
+}
+
+.best-offers .right .circle-3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    top: -25px;
+    
+    
+}
+
+.best-offers .right .circle-4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -25px;
 }
