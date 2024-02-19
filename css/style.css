@@ -122,7 +122,48 @@ body {
 }
 
 .Greenline{
+    position: relative;
     width: 1000px;
     margin: 0px auto;
-    background-color: red;
+    /* background-color: red; */
+}
+
+.site{
+    width: 160px;
+    height: 50px;
+    background-color: #1DD10026;
+    border-radius: 12px;
+}
+
+.Laxmipur{
+    width: 220px;
+    height: 50px;
+    background-color: #0307120D;
+    border-radius: 12px;
+}
+
+.Greenline .cir5{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #F7F8F8;
+    border-radius: 50%;
+    top: -25px;
+    right: 180px;
+}
+.Greenline .cir6{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #F7F8F8;
+    border-radius: 50%;
+    bottom: -25px;
+    right: 180px;
+}
+
+.Select-Your-Seat{
+    width: 1000px;
+    margin: 0px auto;
+    background-color: aqua;
+    
 }
