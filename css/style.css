@@ -107,7 +107,7 @@ body {
     border-radius: 50%;
     bottom: -25px;
 }
-.Ticket-counter{
+.ticket-counter{
     width: 1200px;
     background-color: #F7F8F8;
     border-radius: 88px 88px 0px 0px;
@@ -121,7 +121,7 @@ body {
     margin: 0px auto;
 }
 
-.Greenline{
+.greenline{
     position: relative;
     width: 1000px;
     margin: 0px auto;
@@ -135,14 +135,14 @@ body {
     border-radius: 12px;
 }
 
-.Laxmipur{
+.laxmipur{
     width: 220px;
     height: 50px;
     background-color: #0307120D;
     border-radius: 12px;
 }
 
-.Greenline .cir5{
+.greenline .cir5{
     position: absolute;
     width: 60px;
     height: 60px;
@@ -151,7 +151,7 @@ body {
     top: -25px;
     right: 180px;
 }
-.Greenline .cir6{
+.greenline .cir6{
     position: absolute;
     width: 60px;
     height: 60px;
@@ -161,9 +161,50 @@ body {
     right: 180px;
 }
 
-.Select-Your-Seat{
+.select-your-seat{
     width: 1000px;
+    height: auto;
     margin: 0px auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     
+}
+
+.select-seat-left{
+    width: 500px;
+    height: 500px;
+}
+
+.steering{
+    width: 90px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #d6d5d5;
+    justify-content: end;
+}
+.site-plane, .site-number{
+    width: 90px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #f3f3f3;
+    justify-content: end;
+}
+
+.site-plane{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 10px;
+   
+}
+
+.site-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.select-seat-right{
+    width: 500px;
+    height: auto;
 }
