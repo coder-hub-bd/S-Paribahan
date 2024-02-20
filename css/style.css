@@ -165,7 +165,7 @@ body {
     width: 1000px;
     height: auto;
     margin: 0px auto;
-    /* background-color: aqua; */
+    background-color: #FFFFFF;
     
 }
 
@@ -208,3 +208,11 @@ body {
     width: 500px;
     height: auto;
 }
+
+.count-number{
+    width: 25px;
+    height: 15px;
+    background-color: #1DD100;
+    border-radius: 5px;
+}
+
