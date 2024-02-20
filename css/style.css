@@ -216,3 +216,14 @@ body {
     border-radius: 5px;
 }
 
+.footer-section{
+    background-color: black;
+    margin-top: 80px;
+}
+
+.footer-gr{
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    
+}
