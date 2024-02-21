@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+
 .main-div{
-    width: 1200px;
-    height: 600px;
+    width: 900px;
+    height: 500px;
     margin: 0px auto;
-    background-color: aqua;
+    background-color: #F2F1F1;
 }
 
 .child{
@@ -16,8 +20,5 @@
     height: 400px;
     margin: 0px auto;
     background-color: white;
-}
-
-.popup{
-    
+    border-radius: 24px;
 }
