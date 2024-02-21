@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-div{
+    width: 1200px;
+    height: 600px;
+    margin: 0px auto;
+    background-color: aqua;
+}
+
+.child{
+    width: 600px;
+    height: 400px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.popup{
+    
+}

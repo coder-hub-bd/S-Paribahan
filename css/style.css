@@ -19,7 +19,7 @@ body {
     font-weight: 800; */
 }
 .main-div{
-    background-color: aquamarine;
+    background-color: white;
     width: 1200px;
     height: auto;
     margin: 0px auto;
@@ -27,7 +27,6 @@ body {
 }
 
 .child-div{
-    background-color: white;
     margin: 0px auto;
     width: 1000px;
     height: auto;
