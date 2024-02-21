@@ -226,14 +226,6 @@ body {
     
 }
 
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-
 .roboto{
     font-family: "Roboto", sans-serif;
 }
